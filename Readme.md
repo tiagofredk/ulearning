@@ -1,12 +1,5 @@
-# U Learning final project
+# ULearning full stack app
 
-### this is the front-end part from the final project phase
+### The Ulearning project is my final project for the DCI Institute's Web Development course.
+##### The frame works used for this project are React-native and Expo.
 
-## Colors
-```Javascript
-.Tropical-Fruit-Punch-1-hex { color: #146152; }
-.Tropical-Fruit-Punch-2-hex { color: #44803F; }
-.Tropical-Fruit-Punch-3-hex { color: #B4CF66; }
-.Tropical-Fruit-Punch-4-hex { color: #FFEC5C; }
-.Tropical-Fruit-Punch-5-hex { color: #FF5A33; }
-```
