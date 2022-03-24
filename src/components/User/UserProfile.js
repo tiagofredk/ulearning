@@ -1,7 +1,6 @@
-import { Button, StyleSheet, View, Text, useWindowDimensions, TouchableOpacity } from "react-native";
+import { StyleSheet, View, Text, useWindowDimensions, TouchableOpacity } from "react-native";
 import React, { useContext } from "react";
 import { useNavigation } from "@react-navigation/native";
-// import { SafeAreaView } from "react-native-safe-area-context";
 import { MainContext } from "../../context/MainContext";
 import axios from "axios";
 import { FontAwesome5 } from '@expo/vector-icons';
@@ -79,7 +78,7 @@ const UserProfile = () => {
             </TouchableOpacity>
             <View style={styles.impressum}>
               <Text>Want to know more about us? </Text>
-              <Text style= {{fontWeight:"bold", color:"#493d8a"}} onPress={() => navigation.navigate("Impressum")}>Impressum</Text>
+              <Text style= {{fontWeight:"bold", color:"#493d8a"}} >Impressum</Text>
             </View>
           </View>
 
@@ -91,7 +90,7 @@ const UserProfile = () => {
 
             <View style={styles.impressum}>
               <Text>Want to know more about us? </Text>
-              <Text style= {{fontWeight:"bold", color:"#493d8a"}} onPress={() => navigation.navigate("Impressum")}>Impressum</Text>
+              <Text style= {{fontWeight:"bold", color:"#493d8a"}} >Impressum</Text>
             </View>
           </>
         }

@@ -7,7 +7,7 @@ const ListModule = () => {
   const size = useWindowDimensions();
   return (
     <View>
-      <Text style={{height:50, marginTop:30, textAlign: "center", fontSize:20, fontWeight:"bold"}}>Title Module</Text>
+      <Text style={{height:50, marginTop:35, textAlign: "center", fontSize:25, fontWeight:"bold", color:"#757575"}}>Ulearning Courses</Text>
       <FlatList
         data={slides}
         keyExtractor={(item) => item.id}

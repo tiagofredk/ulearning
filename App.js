@@ -12,7 +12,6 @@ import SignupForm from './src/components/Signin/Signin';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import ContactForm from './src/components/Contact/ContactForm';
 import UserProfile from './src/components/User/UserProfile';
-import Impressum from './src/components/Impressum/Impressum';
 
 export default function App() {
 
@@ -49,7 +48,6 @@ export default function App() {
             <Stack.Screen name="Signin" component={SignupForm} />
             <Stack.Screen name="Contact" component={ContactForm} />
             <Stack.Screen name="Account" component={UserProfile} />
-            <Stack.Screen name="Impressum" component={Impressum} />
           </Stack.Navigator>
           <StatusBar 
           style="dark" 
